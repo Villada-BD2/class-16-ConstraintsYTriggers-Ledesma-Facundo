@@ -31,7 +31,7 @@ INSERT INTO employees
 VALUES
 (1100, 'Perez', 'Juan', 'x1234', NULL, '1', 1002, 'Developer');
 
--- La inserción falla porque la columna email tiene la restricción
+-- El insert falla porque la columna email tiene la restricción
 -- NOT NULL, por lo que MySQL no permite insertar un valor NULL.
 
 
